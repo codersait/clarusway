@@ -7,8 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400');
 
 html {
-  font-size: 100%;
-} /*16px*/
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* font-size: 62.5%; 10px */
+  font-size: 100%; /*16px*/
+}
 
 body {
   background: #f8fafc;
